@@ -4,21 +4,6 @@
 
 ## The Autonomous Neural OS Agent
 
-<div style="display: flex; justify-center; gap: 10px; margin-bottom: 20px;">
-  <a href="https://github.com/201Harsh/IRIS-AI/stargazers">
-    <img src="https://img.shields.io/github/stars/201Harsh/IRIS-AI?style=for-the-badge&color=10b981&logo=github&logoColor=white" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/201Harsh/IRIS-AI/network/members">
-    <img src="https://img.shields.io/github/forks/201Harsh/IRIS-AI?style=for-the-badge&color=10b981&logo=git&logoColor=white" alt="GitHub forks">
-  </a>
-  <a href="https://github.com/201Harsh/IRIS-AI/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/201Harsh/IRIS-AI?style=for-the-badge&color=10b981&logo=users&logoColor=white" alt="Contributors">
-  </a>
-  <a href="https://github.com/201Harsh/IRIS-AI/releases">
-    <img src="https://img.shields.io/github/downloads/201Harsh/IRIS-AI/total?style=for-the-badge&color=10b981&logo=download&logoColor=white" alt="Downloads">
-  </a>
-</div>
-
 **A local-first neural execution system that turns intent into real OS actions.**
 
 ---
@@ -46,7 +31,7 @@
 
 # ⚡ Overview
 
-IRIS is not a chatbot.
+Ai Elite H is not a chatbot.
 
 It is a **local-first AI Operating System layer** that executes real-world actions across your system, applications, and devices.
 
@@ -232,11 +217,7 @@ IRIS is forged using a high-performance stack combining web technologies with de
 # 🚀 Installation & Setup
 
 ### 1. Clone Repo
-
-```bash
-git clone https://github.com/201Harsh/IRIS-AI.git
-cd IRIS-AI
-```
+Install step 2
 
 ### 2. Install Dependencies
 
@@ -353,7 +334,7 @@ Keep your commit messages clean, descriptive, and easy to understand. Clearly st
 
 ---
 
-# 🧩 Extending IRIS
+# 🧩 Extending Ai Elite H
 
 You can:
 
@@ -376,19 +357,8 @@ You can:
 
 # ⚠️ Disclaimer
 
-IRIS has deep system-level execution capabilities.  
+AI Elite H has deep system-level execution capabilities.  
 Use responsibly. The maintainers are not liable for misuse.
-
----
-
-
-# 👨‍💻 Architect
-
-**Harsh Pandey**  
-AI Systems Engineer and Project Leader
-
-Instagram: [@201Harshs](https://www.instagram.com/201harshs/)
-GitHub: [@201Harsh](https://github.com/201Harsh)
 
 ---
 
@@ -405,7 +375,7 @@ MIT License — see LICENSE file.
 
 > _System Online._
 
-# Made with ❤️ by [Harsh Pandey](https://instagram.com/201Harshs)
+# Made with ❤️ by Hamo
 
 
 ---
