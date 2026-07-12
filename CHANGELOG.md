@@ -5,6 +5,34 @@ Format: `[version] — [codename] — [date]`
 
 ---
 
+## [v1.7.0] — The Apex Update
+
+> _July 2026_
+
+### ✨ New Features & Updates
+
+- **Interactive Widgets**: Added new interactive widgets for Quiz (PRO) and Tic Tac Toe (Free).
+- **System Control**: Deeper integration for system controls for IRIS.
+- **UI Upgrade**: Seamless experience with new Dashboard UI and new Settings UI.
+- **AI State Colors**: AI thinking color is now Blue, speaking color is Green, and Standby is White.
+- **Infrastructure**: Added new dedicated Server for enhanced stability and control.
+- **Deprecation**: All previous versions prior to 1.7.0 are now completely deprecated and no longer function.
+
+### 🐛 Bug Fixes
+
+- Fixed and stabilized Email and WhatsApp integrations.
+- Fixed Image Generation and Wallpaper Engine.
+- Fixed Ghost Control issues.
+- Fixed Camera integration.
+- Fixed Screen Context capabilities for AI.
+
+### 💰 Tier Adjustments
+
+- **Free Tier Limitations**: Introduced a rate limit of 12 conversational turns and 5 tool calls per day. Quota resets every day between 12:00 PM - 2:00 PM.
+- **Tool Access**: Updated Free vs Pro tier tools based on the new architecture.
+
+---
+
 ## [v1.5.1] — The Voice Rewrite
 
 > _June 25, 2026_
@@ -82,7 +110,7 @@ Format: `[version] — [codename] — [date]`
 
 - Fixed API blackout caused by accidental deletion of primary Vercel production environment
 - Provisioned new secure Node.js/Express backend: `https://iris-web-xi.vercel.app/`
-- Restored frontend UI: `https://irisaiw.vercel.app/`
+- Restored frontend UI: `https://irisxai.in`
 - Added Vercel delete protection and strict CORS configuration
 - Fixed fatal `ERR_ELECTRON_BUILDER_CANNOT_EXECUTE` (mmap) crash during `npm run build:win`
 
@@ -102,7 +130,7 @@ Format: `[version] — [codename] — [date]`
 ### 🎨 Telemetry HUD (Full Redesign)
 
 - Replaced flat metric boxes with glassmorphic hardware telemetry HUD
-- Each node (CPU, RAM, Temp, OS) has isolated color-coded gradient mesh background (Emerald, Cyan, Orange, Purple)
+- Each node (CPU, RAM, Temp, OS) has isolated color-coded gradient mesh background (green, Cyan, Orange, Purple)
 - Added animated CSS cyber-grid patterns per metric card
 - Added giant faded background iconography (140px) with hover scale animation
 - Laser-edge hover glow — color-matched per hardware node
