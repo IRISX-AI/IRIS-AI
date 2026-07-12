@@ -79,20 +79,16 @@ It is a **Voice-First Desktop AI Assistant** that executes real-world actions ac
 
 ---
 
-# ✨ What's New In v1.6.0
+# ✨ What's New In v1.7.0
 
-- Added Wakeup word functionality for seamless hands-free activation
-- Introduced Chat/Voice toggle — use voice or text to interact with IRIS
-- Advanced Mobile Camera Control: Full control over front/back camera with customized video recording settings
-- More precise authentication including IP and Location verification
-- IRIS now divided into Free and PRO tiers with distinct badges
-- Introduced Custom Protocols to build and execute multi-step automated workflows
-- Introduced AI Wallpaper Engine to dynamically change PC wallpaper with natural language
-- New quick-access overlay available via Ctrl + Shift + I
-- Complete UI Upgrade: Simple, premium, and fully animated interface
-- Updated Settings panel with a new proper build structure
-- Quick Build integration resulting in significantly faster app load times
-- Various underlying bug fixes and system stability improvements
+- Added interactive **Quiz** and **Tic Tac Toe** widgets.
+- Deeper **System Control for IRIS**.
+- Completely revamped **Dashboard UI** and **Settings UI** for a seamless experience.
+- Updated AI State colors: **Thinking (Blue)**, **Speaking (Green)**, and **Standby (White)**.
+- Enhanced Infrastructure: **New server** added for more stability and control.
+- **Important**: All previous versions prior to 1.7.0 are completely deprecated and no longer function.
+- **Free Tier Rate Limit**: Free tier is now limited to 12 turns and 5 tool calls per day (resets 12:00 PM - 2:00 PM).
+- Bug fixes for Email, WhatsApp, Image Generation, Ghost Control, Wallpaper Engine, Camera, and Screen Context for AI.
 
 ---
 
@@ -373,7 +369,7 @@ IRIS uses **enterprise-grade code protection** to secure proprietary agent logic
 
 IRIS is built on an **Open Core model**. While the Free Tier (Public Repository) gives you access to the community UI and basic templates, the **core voice engine, agent loops, and advanced execution tools** are protected within the IRIS Pro ecosystem.
 
-Upgrading to **IRIS Pro (₹499 base license + platform processing fee (Final Checkout: ₹513))** unlocks the complete autonomous OS controller experience.
+Upgrading to **IRIS Pro (₹999 base license + platform processing fee (Final Checkout: ₹513))** unlocks the complete autonomous OS controller experience.
 
 ## 🎁 Free Tier (Base Engine)
 
@@ -384,13 +380,14 @@ Upgrading to **IRIS Pro (₹499 base license + platform processing fee (Final Ch
 - Standard PIN-only OS Vault lockdown
 - Basic UI Widgets & Desktop Shell structure
 - **Core File & Desktop Management:** Read/Write files, search system, open apps, move windows.
-- **Basic Automations:** Ghost typing, scroll, macro sequences, shortcuts.
+- **Basic Automations:** Ghost typing, scroll, shortcuts.
 - **Maps & Weather:** Live location, navigation, and weather insights.
-- **Docs & Email:** PDF Generation and background Email Drafting.
+- **Docs & Media:** Play Tic Tac Toe, Manage PC Settings, Get Stock Price, Spotify Control, Read Notes, Read Gallery.
+- **Usage Limits:** Rate limited to 12 turns and 5 tool calls per day. Quota resets everyday at 12:00 PM - 2:00 PM.
 
 ## 🚀 IRIS Paid Pro
 
-**Cost:** ₹499 base license + platform processing fee (Final Checkout: ₹513)
+**Cost:** ₹999 base license + platform processing fee (Final Checkout: ₹513)
 
 - **Instant License Activation:** Pay once, keep it forever. No subscriptions.
 - **Hands-Free Wake Up Word:** Passive offline activation ("Hey, IRIS").
@@ -398,12 +395,13 @@ Upgrading to **IRIS Pro (₹499 base license + platform processing fee (Final Ch
 - **Phantom Ghost Keyboard:** Global inline injection (Ctrl+Alt+Space).
 - **Small Ghost Overlay:** Instantly summon a fast-access floating command overlay via `Ctrl + Shift + I`.
 - **Mobile Telekinesis (Android):** Full ADB remote actions, telemetry, camera hijacking, file pushing, and APK deployment.
-- **Deep Research & Code Oracle:** Multi-step autonomous web crawling, RAG codebase indexing, and vector memory.
+- **Deep Research & Code Oracle:** Multi-step autonomous web crawling, RAG codebase indexing, and vector memory, Smart File Search.
 - **Wormhole Networking:** Instantly expose local localhost ports to the public internet.
-- **Generative Power:** PPT/Excel Generation, Aesthetic Image generation.
+- **Generative Power:** PPT/Excel Generation, Aesthetic Image generation, Change Wallpaper.
 - **Live UI Forging:** Build entire animated websites (GSAP + Tailwind) and Forge Screen UI into live Widgets.
 - **Direct Communications:** Dispatch WhatsApp messages automatically and directly send emails.
-- **Deep Work Protocol:** Instantly mute distractions, kill specific apps, and optimize environment focus.
+- **Deep Work Protocol:** Execute Sequences, Terminal Run, Instantly mute distractions, kill specific apps, and optimize environment focus.
+- **Interactive Widgets:** Start Interactive Quiz and Advanced Web Agents.
 - **Direct Pro Access:** Fully functional local execution engine.
 
 ### How to Upgrade?
