@@ -1122,6 +1122,6 @@ If you find IRIS valuable, consider:
 
 ---
 
-Made with ❤️ by [Harsh](https://instagram.com/201Harshs)
+Made with ❤️ by [Harsh Pandey](https://instagram.com/201Harshs)
 
 **System Online.**
