@@ -8,6 +8,8 @@
 
 ---
 
+https://www.paypal.com/ncp/payment/6Y6CGYY5T9NES
+
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
 
   <a href="https://github.com/IRISX-AI/IRIS-AI/stargazers">
@@ -1118,6 +1120,6 @@ If you find IRIS valuable, consider:
 
 ---
 
-Made with ❤️ by [Harsh Pandey](https://instagram.com/201Harshs)
+Made with ❤️ by [Harsh](https://instagram.com/201Harshs)
 
 **System Online.**
