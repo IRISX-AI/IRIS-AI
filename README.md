@@ -392,6 +392,7 @@ Upgrading to **IRIS Desktop PRO (₹999 + ₹27 processing fee = ₹1026 Total)*
 - **IRIS Ultimate Bundle PRO:** ₹1999 base + ₹97 gateway fee (₹2096 Total Checkout)
 
 ### Key Pro Capabilities:
+
 - **Instant License Activation:** Keyless Google OAuth upgrade. Pay once, keep it forever.
 - **Hands-Free Wake Up Word:** Passive offline activation ("Hey, IRIS").
 - **ScreenPeeler Multimodal AI OCR:** Instantly scan and extract text/code from your screen (Ctrl+Alt+X).
