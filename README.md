@@ -8,8 +8,6 @@
 
 ---
 
-https://www.paypal.com/ncp/payment/6Y6CGYY5T9NES
-
 <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
 
   <a href="https://github.com/IRISX-AI/IRIS-AI/stargazers">
@@ -371,7 +369,7 @@ IRIS uses **enterprise-grade code protection** to secure proprietary agent logic
 
 IRIS is built on an **Open Core model**. While the Free Tier (Public Repository) gives you access to the community UI and basic templates, the **core voice engine, agent loops, and advanced execution tools** are protected within the IRIS Pro ecosystem.
 
-Upgrading to **IRIS Pro (₹999 base license + platform processing fee (Final Checkout: ₹513))** unlocks the complete autonomous OS controller experience.
+Upgrading to **IRIS Desktop PRO (₹999 + ₹27 processing fee = ₹1026 Total)**, **IRIS-MX Mobile PRO (₹1499 + ₹66 = ₹1565 Total)**, or the **IRIS Ultimate Bundle PRO (₹1999 + ₹97 = ₹2096 Total)** unlocks the complete autonomous controller experience.
 
 ## 🎁 Free Tier (Base Engine)
 
@@ -385,13 +383,16 @@ Upgrading to **IRIS Pro (₹999 base license + platform processing fee (Final Ch
 - **Basic Automations:** Ghost typing, scroll, shortcuts.
 - **Maps & Weather:** Live location, navigation, and weather insights.
 - **Docs & Media:** Play Tic Tac Toe, Manage PC Settings, Get Stock Price, Spotify Control, Read Notes, Read Gallery.
-- **Usage Limits:** Rate limited to 12 turns and 5 tool calls per day. Quota resets everyday at 12:00 PM - 2:00 PM.
+- **Usage Limits:** Rate limited to 10 turns and 5 tool calls per day. Quota resets everyday at 12:00 PM - 2:00 PM.
 
-## 🚀 IRIS Paid Pro
+## 🚀 IRIS Paid Pro Tiers
 
-**Cost:** ₹999 base license + platform processing fee (Final Checkout: ₹513)
+- **IRIS Desktop PRO:** ₹999 base + ₹27 gateway fee (₹1026 Total Checkout)
+- **IRIS-MX Mobile PRO:** ₹1499 base + ₹66 gateway fee (₹1565 Total Checkout)
+- **IRIS Ultimate Bundle PRO:** ₹1999 base + ₹97 gateway fee (₹2096 Total Checkout)
 
-- **Instant License Activation:** Pay once, keep it forever. No subscriptions.
+### Key Pro Capabilities:
+- **Instant License Activation:** Keyless Google OAuth upgrade. Pay once, keep it forever.
 - **Hands-Free Wake Up Word:** Passive offline activation ("Hey, IRIS").
 - **ScreenPeeler Multimodal AI OCR:** Instantly scan and extract text/code from your screen (Ctrl+Alt+X).
 - **Phantom Ghost Keyboard:** Global inline injection (Ctrl+Alt+Space).
@@ -403,8 +404,15 @@ Upgrading to **IRIS Pro (₹999 base license + platform processing fee (Final Ch
 - **Live UI Forging:** Build entire animated websites (GSAP + Tailwind) and Forge Screen UI into live Widgets.
 - **Direct Communications:** Dispatch WhatsApp messages automatically and directly send emails.
 - **Deep Work Protocol:** Execute Sequences, Terminal Run, Instantly mute distractions, kill specific apps, and optimize environment focus.
-- **Interactive Widgets:** Start Interactive Quiz and Advanced Web Agents.
-- **Direct Pro Access:** Fully functional local execution engine.
+
+### 📋 Ecosystem Governance & Administrative Fee Schedule
+
+- 🔄 **Mobile ↔ Desktop Platform Swap Fee:** Flat **₹499** fee to transfer entitlement from Mobile to Desktop or Desktop to Mobile.
+- ✉️ **Google / Gmail Account Email Swap Fee:** Flat **₹129 per request** to transfer registered Google/Gmail account access to a new email ID.
+- 💾 **Device HWID Reset & Migration Fee:** Mandatory **₹199 per reset** to clear hardware slots or register new workstation hardware.
+- ⏳ **Inactive Account Archival (>60 Days) Fee:** **₹299** processing fee to unarchive accounts with zero activity turns for over 60 consecutive days.
+- 💳 **Gateway Dispute Operational Penalty:** **₹1000** fine for invalid/fraudulent payment chargebacks, payable prior to unban review.
+- ⚖️ **Tiered Account Unban Fine Schedule:** **₹500** (1st Offense), **₹1500** (2nd Offense), **₹5000** (3rd Offense). Post-3rd offense results in permanent unappealable HWID ban.
 
 ### How to Upgrade?
 
@@ -1120,6 +1128,6 @@ If you find IRIS valuable, consider:
 
 ---
 
-Made with ❤️ by [Harsh](https://instagram.com/201Harshs)
+Made with ❤️ by [Harsh Pandey](https://instagram.com/201Harshs)
 
 **System Online.**
