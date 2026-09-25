@@ -27,8 +27,8 @@ const PhoneView = ({ glassPanel }: { glassPanel?: string }) => {
   const [uiMode, setUiMode] = useState<'history' | 'manual'>('history')
   const [errorMsg, setErrorMsg] = useState('')
   const [deviceHistory, setDeviceHistory] = useState<any[]>([])
-  const [copied, setCopied] = useState(false) 
-
+  const [copied, setCopied] = useState(false)
+  const isLocalOnly = import.meta.env.VITE_LOCAL_ONLY === 'true'
   const screenRef = useRef<HTMLImageElement>(null)
   const isStreaming = useRef(false)
   const knownNotifs = useRef<string[]>([])
@@ -46,16 +46,18 @@ const PhoneView = ({ glassPanel }: { glassPanel?: string }) => {
       setDeviceHistory(data)
 
       if (data.length > 0 && !hasAutoConnected.current) {
-        hasAutoConnected.current = true
+              hasAutoConnected.current = true
 
-        const lastDevice = data[data.length - 1]
+              const lastDevice = data[data.length - 1]
 
-        if (lastDevice && lastDevice.ip) {
-          setIp(lastDevice.ip)
-          setPort(lastDevice.port)
-          connectToDevice(lastDevice.ip, lastDevice.port)
-        }
-      }
+              if (lastDevice && lastDevice.ip && !isLocalOnly) {
+                setIp(lastDevice.ip)
+                setPort(lastDevice.port)
+                connectToDevice(lastDevice.ip, lastDevice.port)
+              } else if (isLocalOnly) {
+                hasAutoConnected.current = true
+              }
+            }
     })
   }, [])
 
@@ -85,11 +87,16 @@ const PhoneView = ({ glassPanel }: { glassPanel?: string }) => {
   }
 
   const connectToDevice = async (targetIp: string, targetPort: string) => {
-    if (!targetIp || !targetPort) return setErrorMsg('IP and Port are required.')
-    setStatus('connecting')
-    setErrorMsg('')
+      if (isLocalOnly) {
+        setErrorMsg('Local-only mode: Remote ADB connections are disabled.');
+        setStatus('idle');
+        return;
+      }
+      if (!targetIp || !targetPort) return setErrorMsg('IP and Port are required.')
+      setStatus('connecting')
+      setErrorMsg('')
 
-    try {
+      try {
       const res = await window.electron.ipcRenderer.invoke('adb-connect', {
         ip: targetIp,
         port: targetPort
